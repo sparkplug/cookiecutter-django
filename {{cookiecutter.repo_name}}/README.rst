@@ -56,7 +56,7 @@ You can now run the usual Django ``runserver`` command (replace ``yourapp`` with
 
 The base app will run but you'll need to carry out a few steps to make the sign-up and login forms work. These are currently detailed in `issue #39`_.
 
-.. _issue #39: https://github.com/pydanny/cookiecutter-django/issues/39
+.. _issue #39: https://github.com/sparkplug/cookiecutter-django/issues/39
 
 **Live reloading and Sass CSS compilation**
 

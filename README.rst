@@ -39,12 +39,12 @@ First, get cookiecutter. Trust me, it's awesome::
 
 Now run it against this repo::
 
-    $ cookiecutter https://github.com/pydanny/cookiecutter-django.git
+    $ cookiecutter https://github.com/sparkplug/cookiecutter-django.git
 
 You'll be prompted for some questions, answer them, then it will create a Django project for you.
 
 
-**Warning**: After this point, change 'Daniel Greenfeld', 'pydanny', etc to your own information.
+**Warning**: After this point, change 'Sparkplug', 'sparkplug', etc to your own information.
 
 It prompts you for questions. Answer them::
 
@@ -54,10 +54,10 @@ It prompts you for questions. Answer them::
     remote: Total 550 (delta 283), reused 479 (delta 222)
     Receiving objects: 100% (550/550), 127.66 KiB | 58 KiB/s, done.
     Resolving deltas: 100% (283/283), done.
-    project_name (default is "project_name")? Reddit Clone
-    repo_name (default is "repo_name")? redditclone
-    author_name (default is "Your Name")? Daniel Greenfeld
-    email (default is "Your email")? pydanny@gmail.com
+    project_name (default is "project_name")? Boda Boda
+    repo_name (default is "repo_name")? bodaboda
+    author_name (default is "Your Name")? Sparkplug
+    email (default is "Your email")? hello@sparkplug
     description (default is "A short description of the project.")? A reddit clone.
     year (default is "Current year")? 2014
     domain_name (default is "Domain name")?
@@ -65,7 +65,7 @@ It prompts you for questions. Answer them::
 
 Enter the project and take a look around::
 
-    $ cd redditclone/
+    $ cd bodaboda/
     $ ls
 
 Create a GitHub repo and push it there::
@@ -73,7 +73,7 @@ Create a GitHub repo and push it there::
     $ git init
     $ git add .
     $ git commit -m "first awesome commit"
-    $ git remote add origin git@github.com:pydanny/redditclone.git
+    $ git remote add origin git@github.com:sparkplug/bodaboda.git
     $ git push -u origin master
 
 Now take a look at your repo. Don't forget to carefully look at the generated README. Awesome, right?
